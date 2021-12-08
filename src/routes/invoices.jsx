@@ -24,7 +24,7 @@ export default function Invoices() {
         }}
       >
         <main style={{ padding: '.5rem 0' }}>
-          <h2>Expenses</h2>
+          <h2>Invoices</h2>
         </main>
         <input
           value={searchParams.get('filter') || ''}
